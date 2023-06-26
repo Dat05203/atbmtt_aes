@@ -3,12 +3,12 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from BitVector import *
+from aes_encrypt_function import *
+from aes_decrypt_function import *
 import sys
 import random
 import string
 import math
-from aes_encrypt_function import *
-from aes_decrypt_function import *
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
